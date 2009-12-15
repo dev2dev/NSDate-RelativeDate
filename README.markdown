@@ -2,12 +2,12 @@
 A category to extend Cocoa's NSDate class with relative date function
 
 ### How to use
-To use it in your Cocoa project, import the header and implementation files, and then add the header to your project’s _prefix.pch file so that it’s available across your project:
+To use it in your Cocoa project, import the header and implementation files, and then add the header to your project’s *_prefix.pch* file so that it’s available across your project:
 
     #ifdef __OBJC__
         #import <Foundation/Foundation.h>
         #import <UIKit/UIKit.h>
-        #import "NSDate+Helper.h"
+        #import "NSDate+RelativeDate.h"
     #endif
 
 And in your source:
