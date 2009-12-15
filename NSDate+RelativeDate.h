@@ -32,7 +32,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDate (DDRelativeDate) 
+@interface NSDate (RelativeDate) 
 - (NSString *)relativeDate;
 @end
 
