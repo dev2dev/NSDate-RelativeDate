@@ -57,7 +57,7 @@
 		NSInteger relativeNumber;
 		[currentInvocation getReturnValue:&relativeNumber];
 
-		if (relativeNumber) {
+		if (relativeNumber && relativeNumber != INT32_MAX) {
 			return [NSString stringWithFormat:@"%d%@", relativeNumber, [selectorName substringToIndex:1]];
 		}
 	}
