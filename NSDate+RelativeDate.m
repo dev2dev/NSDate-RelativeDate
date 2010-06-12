@@ -58,7 +58,7 @@
 		[currentInvocation getReturnValue:&relativeNumber];
 
 		if (relativeNumber && relativeNumber != INT32_MAX) {
-			return [NSString stringWithFormat:@"%d%@", relativeNumber, [selectorName substringToIndex:1]];
+			return [NSString stringWithFormat:@"%d%@", relativeNumber, NSLocalizedString([selectorName substringToIndex:1], nil)];
 		}
 	}
 
